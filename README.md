@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Live Demo
-👉 **[Try DeepResearch AI](https://YOUR-APP-URL.streamlit.app)**
+👉 **[Try DeepResearch AI](https://deepresearchapp.streamlit.app/)**
 
 ---
 
@@ -139,11 +139,11 @@ Then open your browser to: `http://localhost:8501`
 ## ☁️ Deploy on Streamlit Cloud (Free)
 
 1. Fork this repository
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
+2. Go to ([https://share.streamlit.io](https://deepresearchapp.streamlit.app/)) → **New app**
 3. Select your forked repo, branch `main`, file `app.py`
 4. Under **Advanced settings → Secrets**, add:
 ```toml
-GROQ_API_KEY = "your_groq_api_key_here"
+GROQ_API_KEY = "GROQ_API_KEY= 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"
 ```
 5. Click **Deploy** — live in ~3 minutes
 
@@ -161,12 +161,6 @@ GROQ_API_KEY = "your_groq_api_key_here"
 
 ---
 
-## 🖼️ Screenshots
-
-> Add screenshots of your running app here.
-> Press `Win + Shift + S` to screenshot, then drag the image into this README on GitHub.
-
----
 
 ## 🤝 Contributing
 
