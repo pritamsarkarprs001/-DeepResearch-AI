@@ -1,0 +1,25 @@
+# Virtual environment (huge, not needed on cloud)
+venv/
+
+# Secret keys — NEVER upload this
+.env
+
+# Local database (too large, rebuilt on cloud)
+chroma_db/
+
+# Uploaded PDFs (user files, private)
+data/*.pdf
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated reports
+*.pdf
+report.md
+
+# OS files
+.DS_Store
+Thumbs.db
